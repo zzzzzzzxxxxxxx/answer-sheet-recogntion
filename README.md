@@ -1,2 +1,18 @@
-# answer-sheet-recogntion
-这个项目主要研究了基于opencv计算机视觉库，实现对答题卡填涂信息的自动、准确识别。研究内容包括答题卡图像的预处理，如对答题卡的轮廓识别、绘制、近似、计算；以及透视变换、灰度识别、去噪以提高图像质量；对填涂区域进行定位与分割，确保信息的准确提取；利用模式识别算法对填涂标记进行识别，判断选项或答案是否正确，达到自动阅卷的目的。
+# 答题卡识别
+
+我是在python3.12的环境下运行的项目，首先安装依赖库
+
+`pip install -r requirements.txt`
+
+所需要的arguments
+
+```python
+ap.add_argument("-i", "--image", required=True,
+                help="path to the input image")
+```
+
+运行命令`python main.py -i images/example_01.png`
+
+运行截图如下
+screenshot1-7
+
